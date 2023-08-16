@@ -1,0 +1,84 @@
+#
+#-------------------------------------------------------------#
+#  创建者：https://v2rayse.com
+#  创建时间：2023-04-25 19:11:54
+#  模版：v2rayse默认模版
+#  节点数量：113
+#-------------------------------------------------------------#
+#
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+proxies:
+  - {"type":"ssr","name":"🇸🇬SG新加坡(youtube阿伟科技)_1","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME","obfs-param":"===%% % ","protocol-param":"===%% % "}
+  - {"type":"ssr","name":"🇸🇬SG新加坡(youtube阿伟科技)_1_1","server":"sg-04.xm1s.top","port":457,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"UtFRxN","obfs-param":"wns.windows.com","protocol-param":"2352:ANVr3j"}
+  - {"type":"vmess","name":"🇨🇳CN中国安徽回国节点(youtube阿伟科技2)","server":"112.132.212.112","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技)_1","server":"8.217.89.229","port":58008,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"8973475u345"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技)_2","server":"8.217.90.39","port":48687,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"8236u2378"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技)_3","server":"8.217.90.39","port":53640,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"827374y74"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技2)_1","server":"173.82.186.25","port":50006,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"IOSwgAYTREask(&1UHYTiq'&%12igsasamafSSR"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技2)_4","server":"iplc-xiang.mielink-dns2.com","port":668,"protocol":"auth_aes128_md5","cipher":"rc4-md5","obfs":"http_simple","password":"miejump.com","obfs-param":"ajax.microsoft.com","protocol-param":"105860:2020931d-1126-3ea1-b931-b750f3ca563d"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技2)_5","server":"3layer03.initcloud.pro","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"48530:LLLiuiuiu787878"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技2)_6","server":"8.218.0.115","port":50507,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"789345734u5"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技2)_7","server":"8.218.67.54","port":46950,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"2345345f34"}
+  
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技)_5","server":"43.154.22.235","port":52730,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"234234523"}
+  
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技)_6","server":"43.154.38.20","port":58568,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"393473455"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技)_7","server":"43.154.56.244","port":56193,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3456467"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技2)_10","server":"94.23.116.190","port":443,"protocol":"origin","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","password":"HowdyBypasser2022"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技2)_17","server":"02.kccic2pa.xyz","port":"50002","uuid":"62f3a8dd-9fca-4868-8a70-1746eb4c9393","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇷🇴RO罗马尼亚(youtube阿伟科技)","http-opts":{"path":["/"],"headers":{"Host":["🇷🇴RO罗马(youtube阿伟科技)"]}},"server":"82.117.255.92","port":"443","uuid":"b91bf074-faa1-4ce2-9e9e-e9150a86d0cf","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技2)_4","ws-opts":{"path":"/freedom","headers":{"host":"rochinet.fullaccesstointernet.cn.eu.org"}},"server":"rochinet.fullaccesstointernet.cn.eu.org","port":"443","uuid":"65864938-ab50-4efa-bc6a-084f42a8de63","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技2)_36","server":"142.4.109.68","port":"46672","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技2)_38","server":"137.175.52.29","port":"33002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技2)_23","server":"192.74.231.186","port":"49255","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"ssr","name":"🇺🇸US美国(youtube阿伟科技2)_1","server":"94.23.116.190","port":443,"protocol":"origin","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","password":"HowdyBypasser2022","obfs-param":"None","protocol-param":"None"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技2)_15","server":"107.148.192.155","port":"49924","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技2)_17","server":"137.175.18.65","port":"42002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技2)_18","server":"108.186.4.1","port":"42382","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技2)_30","server":"173.82.55.92","port":"34412","uuid":"82620a6e-dbfd-4d57-8a59-9004a4bb9e92","alterId":"64","cipher":"auto","network":"tcp"}
+  
+
+proxy-groups:
+  - name: 节点
+    type: select
+    url: https://www.google.com
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬SG新加坡(youtube阿伟科技)_1
+      - 🇸🇬SG新加坡(youtube阿伟科技)_1_1
+      - 🇨🇳CN中国安徽回国节点(youtube阿伟科技2)
+      - 🇭🇰HK香港(youtube阿伟科技)_1
+      - 🇭🇰HK香港(youtube阿伟科技)_2
+      - 🇭🇰HK香港(youtube阿伟科技)_3
+      - 🇭🇰HK香港(youtube阿伟科技2)_1
+      - 🇭🇰HK香港(youtube阿伟科技2)_4
+      - 🇭🇰HK香港(youtube阿伟科技2)_5
+      - 🇭🇰HK香港(youtube阿伟科技2)_6
+      - 🇭🇰HK香港(youtube阿伟科技2)_7
+      - 🇭🇰HK香港(youtube阿伟科技)_5
+      - 🇭🇰HK香港(youtube阿伟科技)_6
+      - 🇭🇰HK香港(youtube阿伟科技)_7
+      - 🇭🇰HK香港(youtube阿伟科技2)_10
+      - 🇭🇰HK香港(youtube阿伟科技2)_17
+      - 🇷🇴RO罗马尼亚(youtube阿伟科技)
+      - 🇹🇼TW台湾(youtube阿伟科技2)_4
+      - 🇺🇸US美国(youtube阿伟科技2)_36
+      - 🇺🇸US美国(youtube阿伟科技2)_38
+      - 🇺🇸US美国(youtube阿伟科技2)_23
+      - 🇺🇸US美国(youtube阿伟科技2)_1
+      - 🇺🇸US美国(youtube阿伟科技2)_15
+      - 🇺🇸US美国(youtube阿伟科技2)_17
+      - 🇺🇸US美国(youtube阿伟科技2)_18
+      - 🇺🇸US美国(youtube阿伟科技2)_30
+     
+      
+      
+rules:
+ - GEOIP,CN,DIRECT
+ - MATCH,节点
